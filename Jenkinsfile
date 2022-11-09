@@ -5,7 +5,7 @@ pipeline {
         stages{
            stage('Git Checkout'){
                 steps{
-                    git 'https://github.com/thusiyanth/SpringFramwork.git'
+                    git 'https://github.com/thusiyanth/springDevApplication.git'
                }
             }
 
